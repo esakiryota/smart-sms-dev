@@ -1,6 +1,6 @@
 {
   "name": "smart-sms",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "main": "public/index.js",
   "homepage": "./",
   "repository": {
