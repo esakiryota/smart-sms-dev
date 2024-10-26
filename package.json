@@ -46,6 +46,7 @@
     "browserify-fs": "^1.0.0",
     "date-fns": "^4.1.0",
     "dayjs": "^1.11.13",
+    "dotenv": "^16.4.5",
     "electron-log": "^5.2.0",
     "electron-squirrel-startup": "^1.0.1",
     "fs": "^0.0.1-security",
