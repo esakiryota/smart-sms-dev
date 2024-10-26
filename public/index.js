@@ -1,10 +1,16 @@
 const { app, BrowserWindow, ipcMain } = require('electron');
 const path = require('path');
 const sqlite3 = require('sqlite3').verbose();
-
 const {updateElectronApp} = require('update-electron-app');
+const log = require('electron-log');
 
-updateElectronApp()
+updateElectronApp({
+  logger: log,
+});
+
+log.transports.file.level = 'info';
+log.info('Auto-updater initialized');
+
 
 //マスタ管理
 require('./ipc/masters/customers'); 
