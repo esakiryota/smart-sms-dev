@@ -5,7 +5,7 @@
   "homepage": "./",
   "repository": {
     "type": "git",
-    "url": "https://github.com/esakiryota/smart-sms.git"
+    "url": "https://github.com/esakiryota/smart-sms-dev.git"
   },
   "build": {
     "appId": "com.smart-sms.app",
